@@ -9,5 +9,7 @@
 </head>
 <body>
     <input type="button" onclick="this.disabled=true" id="hello" value="Click me!" />
+    <input type="button" onclick="document.querySelector('#hello').disabled=false" value="Click me too!" id="goodbye" />
+    <p>To see the event log, run: <code>szko.eventRecorder.getLog()</code> on the JS console.</p>
 </body>
 </html>
