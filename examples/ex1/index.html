@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Event Recorder Example 1</title>
+    <script type="text/javascript" src="../../src/eventRecorder.js"></script>
+    <script type="text/javascript">
+        window.addEventListener("load", szko.eventRecorder.startRecording, false);
+    </script>
+</head>
+<body>
+    <input type="button" onclick="this.disabled=true" id="hello" value="Click me!" />
+</body>
+</html>
